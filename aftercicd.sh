@@ -1,3 +1,4 @@
+cd ~/project
 mkdir codedeploy
 cd codedeploy
 java -version
