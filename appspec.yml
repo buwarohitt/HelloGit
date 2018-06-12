@@ -8,12 +8,12 @@ hooks:
 
  BeforeInstall:
 
-   - location: /beforecicd.sh
+   - location: /beforecicd
 
      runas: root
 
 AfterInstall:
 
-   - location: aftercicd.sh
+   - location: aftercicd
 
      runas: root
