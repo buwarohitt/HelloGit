@@ -1,4 +1,5 @@
-cd /var/lib/codedeploy/project
+#!/bin/bash
+cd /var/lib/codedeploy/
 java -version
 javac HelloWorld.java
 java HelloWorld
