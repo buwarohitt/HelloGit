@@ -1,0 +1,7 @@
+cd /var/lib/codedeploy/
+#javac HelloWorld.java
+#java HelloWorld
+#jar cvf HelloWorld.jar HelloWorld.class
+#mkdir target
+#mv *.jar target
+#tar cvfz app.tar.gz target/*
