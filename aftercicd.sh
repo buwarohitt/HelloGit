@@ -1,6 +1,4 @@
-cd ~/project
-mkdir codedeploy
-cd codedeploy
+cd /var/lib/codedeploy/project
 java -version
 javac HelloWorld.java
 java HelloWorld
