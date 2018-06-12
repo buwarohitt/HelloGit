@@ -1,12 +1,14 @@
 version: 0.0
 
 os: linux
-
+files:
+  - source: /
+    destination: /var/lib/codedeploy
 hooks:
 
  BeforeInstall:
 
-   - location: beforecicd.sh
+   - location: /beforecicd.sh
 
      runas: root
 

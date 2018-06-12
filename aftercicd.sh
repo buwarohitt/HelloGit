@@ -1,3 +1,5 @@
+#!/bin/sh
+cd /var/lib/codedeploy/
 java -version
 javac HelloWorld.java
 java HelloWorld

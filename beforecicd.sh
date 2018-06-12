@@ -1,2 +1,2 @@
-mkdir project
-cp HelloWorld.java project
+#!/bin/sh
+ls -l
