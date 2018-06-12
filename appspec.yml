@@ -6,7 +6,7 @@ hooks:
 
  BeforeInstall:
 
-   - location: ./beforecicd.sh
+   - location: /beforecicd.sh
 
      runas: root
 
