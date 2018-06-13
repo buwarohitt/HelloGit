@@ -2,18 +2,18 @@ version: 0.0
 
 os: linux
 files:
-  - source: /
+  - source: target/*
     destination: /var/lib/codedeploy
-hooks:
+#hooks:
 
- BeforeInstall:
+ #BeforeInstall:
 
-   - location: beforecicd
+  # - location: beforecicd
 
-     runas: root
+   #  runas: root
 
-AfterInstall:
+#AfterInstall:
 
-   - location: aftercicd
+ #  - location: aftercicd
 
-     runas: root
+  #   runas: root
