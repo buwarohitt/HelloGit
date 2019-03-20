@@ -1,19 +1,7 @@
 version: 0.0
-
-os: linux
+os: windows
 files:
-  - source: target/
-    destination: /var/lib/codedeploy
-#hooks:
-
- #BeforeInstall:
-
-  # - location: beforecicd
-
-   #  runas: root
-
-#AfterInstall:
-
- #  - location: aftercicd
-
-  #   runas: root
+  - source: \
+    destination: C:\xampp\htdocs\devops\pc360_unthsc_uat
+#    destination: C:\xampp\htdocs\qaglobal\pc360emr\
+    overwrite: true
